@@ -13,7 +13,7 @@ This document defines an extension to the OpenRTB 2.5 protocol that specifies th
 
 With RTB 2.5 and earlier, bid responses do not contain the duration of video ads.  The only way for requestor to know the length of an ad is to parse the VAST response.  Parsing the VAST response ads considerable complexity to the implementations since VAST supports wrappers and so the implementaiton may have to parse through several layers of VAST documents.  
 
-Knowing the duratin is important for several use cases.  The duration is essential for constructing an ad pod.  Additionally, the publisher may want to know the length of video for analytics purposes or decision on the price per second of the ad.
+Knowing the duration is important for several use cases.  The duration is essential for constructing an ad pod.  Additionally, the publisher may want to know the length of video for analytics purposes or decision on the price per second of the ad.
 
 
 ## Bid Response
